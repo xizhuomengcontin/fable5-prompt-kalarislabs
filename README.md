@@ -37,7 +37,7 @@ This repository contains the **complete system prompt** (~1,580 lines, ~120KB) f
 
 This is the most detailed look yet into how Anthropic engineers its flagship model's behavior.
 
-For the same model family recorded the other way round, off the wire rather than from a live session, see [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault/tree/main/Claude-Code): Claude Code on Fable 5.1 sends 26,131 characters and 35 tool declarations interactively and 20,806 and 29 under `claude -p`, both dated and reproducible. The product surface and the chat surface do not get the same prompt, and the archive keeps them apart.
+For the same model family recorded the other way round, off the wire rather than from a live session, see [OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault/tree/main/Claude-Code): its 2026-09-02 `claude-fable-5-1` captures on Claude Code `2.1.258.18d` hold 26,131 characters and 35 tool declarations interactively and 20,806 and 29 under `claude -p`, as sizes of the scrubbed files, each with the command that reproduces it. The product surface and the chat surface do not get the same prompt, and the archive keeps them apart.
 
 ---
 
